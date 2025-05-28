@@ -30,4 +30,4 @@ jobs:
           SLACK_MESSAGE: 'Test Worked'
           SLACK_TITLE: Github Actions
           SLACK_USERNAME: Cathy
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_WEBHOOK: ${{ secrets.SLACK }}
